@@ -1,22 +1,16 @@
 {
-  "name": "3d_album",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "vemoire",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yeahsilver/3D_Album.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yeahsilver/3D_Album/issues"
-  },
-  "homepage": "https://github.com/yeahsilver/3D_Album#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
